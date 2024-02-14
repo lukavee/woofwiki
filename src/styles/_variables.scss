@@ -1,0 +1,33 @@
+///// Colors variables /////
+$primary-color: #A8DF8E;
+$secondary-color: #FFE5E5;
+$tertiary-color: #FFBFBF;
+$black-text: #30302E;
+$white-text: #F8F8F6;
+
+////// Font size //////
+
+$font-size: (
+    'paragraph': 1.6rem,
+    'h6': 2rem,
+    'h5': 2.4rem,
+    'h4': 3.4rem,
+    'h3': 4.8rem,
+    'h2': 6rem,
+    'h1': 9.6rem
+);
+
+// Font weight ///
+
+$font-weight: (
+    'regular': 400,
+    'medium': 500,
+    'mediumPlus': 600,
+    'super': 700
+);
+
+// Media queries //
+
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

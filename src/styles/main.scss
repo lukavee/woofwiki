@@ -1,0 +1,58 @@
+@import "variables";
+@import "functions";
+@import "mixin";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: get-font-size('paragraph');
+    color: $black-text;
+    background: $primary-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 150rem;
+    margin: 0 auto;
+  }
+
+  .main-title {
+    text-align: center;
+    font-size: get-font-size('h1');
+  }
+
+  .search-container {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+    @include flex-center;
+
+            .search-input {
+                padding: 2rem 4rem;
+                width: 50rem;
+                font-size: get-font-size('h5');
+            }
+  }
+
+  .dog-info-container {
+    text-align: center;
+  }
+
+  

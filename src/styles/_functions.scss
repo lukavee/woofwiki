@@ -1,0 +1,12 @@
+// Function font-size //
+
+@function get-font-size($element) {
+    @return map-get($font-size, $element);
+  }
+
+
+  // Function font-weight //
+
+  @function get-font-weight($element) {
+    @return map-get($font-weight, $element);
+  }

@@ -1,0 +1,14 @@
+// Center //
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Hover // 
+
+  @mixin hover-color($hover-color) {
+    &:hover {
+      color: $primary-color;
+    } }
