@@ -46,6 +46,8 @@ a {
 
             .search-input {
                 padding: 2rem 4rem;
+                border-radius: 10px;
+                border: none;
                 width: 50rem;
                 font-size: get-font-size('h5');
             }
@@ -53,6 +55,27 @@ a {
 
   .dog-info-container {
     text-align: center;
+
+            h2 {
+                font-size: get-font-size('h4');
+                padding-bottom: 2rem;
+            }
+
+            p {
+                font-size: get-font-size('h5');
+                padding-bottom: 2rem;
+
+                span {
+                    color: $black-text;
+                    font-weight: get-font-weight('super');
+                }
+            }
+
+            img {
+                max-width: 50rem;
+                border: 5px solid $tertiary-color;
+                border-radius: 10px;
+            }
   }
 
   
